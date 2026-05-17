@@ -2,7 +2,7 @@
 const DATA = {
   name: "Muchammad Nasrullah Syahbana",
   role: "FULL-STACK DEVELOPER",
-  email: "nazrullsyaban@gmail.com",
+  email: "nazzzsyabannn@gmail.com",
   phone: "+62 821-3177-5829",
   location: "Surabaya, Indonesia",
   website: "https://MNazrull.github.io",
