@@ -1,4 +1,4 @@
-/* ══ DATA ══ */
+/* ══ DATA ══ Edit bagian ini untuk update otomatis CV & portfolio */
 const DATA = {
   name: "Muchammad Nasrullah Syahbana",
   role: "FULL-STACK DEVELOPER",
@@ -70,7 +70,9 @@ const DATA = {
   ]
 };
 
-const FORMSPREE_ENDPOINT = "https://formspree.io/f/xbdbrnrd"; // GANTI INI
+const FORMSPREE_ENDPOINT = "https://formspree.io/f/xbdbrnrd"; 
+
+/* ══ FUNGSI UTILITY ══ */
 
 function calculateStats() {
   let totalYears = 0;
@@ -91,8 +93,8 @@ function calculateStats() {
   const certsEl = document.getElementById('stat-certs');
 
   if (yearsEl) yearsEl.textContent = Math.max(3, Math.floor(totalYears)) + "+";
-  if (projectsEl) projectsEl.textContent = DATA.projects.length + 9;
-  if (clientsEl) clientsEl.textContent = Math.floor(DATA.projects.length * 1.5) + 4;
+  if (projectsEl) projectsEl.textContent = DATA.projects.length + 8;
+  if (clientsEl) clientsEl.textContent = Math.floor(DATA.projects.length * 1.5) + 5;
   if (certsEl) certsEl.textContent = "3";
 }
 
