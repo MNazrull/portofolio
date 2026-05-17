@@ -6,7 +6,7 @@
   --ink-light: #A09890;
   --accent: #C8893A;
   --accent-light: #F2E6D4;
-  --border: rgba(26,24,20,0.10);
+  --border: rgba(26, 24, 20, 0.10);
   --sidebar-w: 280px;
 }
 
@@ -1008,6 +1008,30 @@ nav {
     max-width: 850px;
     padding: 3rem;
   }
+}
+
+/* PERBAIKAN - HAPUS GARIS 3 YANG KETUTUPAN DI ABOUT SECTION */
+#about .section-divider {
+  margin-bottom: 2rem;
+}
+
+#about .about-grid,
+#about .about-stats,
+#about .stat-card,
+#about .about-text,
+#about .about-skills {
+  border: none !important;
+  outline: none !important;
+}
+
+#about .stat-card::before,
+#about .stat-card::after {
+  display: none !important;
+}
+
+#about .stat-card {
+  position: relative;
+  overflow: hidden;
 }
 
 /* Untuk layar sangat lebar (4K) */
