@@ -25,7 +25,7 @@ const DATA = {
   experience: [
     {
       title: "Network Operations Center (NOC)",
-      company: "PT. TechInno Solutions",
+      company: "PT. Wijaya Karya Arta",
       date: "Jan 2023 – Sekarang",
       desc: "Mengelola konfigurasi perangkat jaringan (MikroTik dan perangkat akses lainnya), termasuk manajemen bandwidth, alokasi IP, dan optimalisasi rute jaringan guna memastikan stabilitas layanan klien. "
     },
